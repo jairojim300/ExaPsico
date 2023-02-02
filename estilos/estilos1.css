@@ -1,0 +1,439 @@
+/*//menu superior */
+
+#navSquare {
+        margin: 0;
+        padding: 0 0 20px 10px;
+        border-bottom: 1px solid #9FB1BC;
+}
+
+#navSquare li {
+        margin: 10;
+        padding: 0;
+        display: inline;
+        list-style-type: none;
+}
+
+#navSquare a:link, #navSquare a:visited {
+        float: left;
+        font-size: 13px;
+        line-height: 14px;
+        font-weight: bold;
+        padding: 0 12px 6px 12px;
+        text-decoration: none;
+        color: #708491;
+}
+
+#navSquare a:link.active, #navSquare a:visited.active, #navSquare a:hover {
+        color: #000;
+        background: url(../imagenes/square.gif) no-repeat bottom center;
+}
+
+body {
+        font-family: verdana, sans-serif;
+        font-size: 11px;
+        background: #eeeeee;
+}
+
+h4 {
+        font-size: 100%;
+        color: #999;
+        margin: 0;
+}
+
+/*//menu izquierdo */
+body {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        margin: 0;
+        font-size: 80%;
+        font-weight: bold;
+        background: #fff;
+        }
+
+h2 {
+        font: bold 14px Verdana, Arial, Helvetica, sans-serif;
+        color: #000;
+        margin: 0px;
+        padding: 0px 0px 0px 15px;
+}
+
+ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        }
+
+img {
+    border: none;
+}
+
+/*- Menu 8--------------------------- */
+
+#menu8 {
+        width: 120px;
+        margin: 10px;
+        border-style: solid;
+        border-color: #656556;
+        border-size: 1px;
+        border-width: 1px;
+        }
+
+#menu8 li a {
+        height: 18px;
+          voice-family: "\"}\"";
+          voice-family: inherit;
+          height: 24px;
+        text-decoration: none;
+        }
+
+#menu8 li a:link, #menu8 li a:visited {
+        color: #656556;
+        display: block;
+        background:  url(../imagenes/menu8.gif);
+        padding: 8px 0 0 20px;
+        }
+
+#menu8 li a:hover, #menu8 li #current {
+        color: #474739;
+        background:  url(../imagenes/menu8.gif) 0 -32px;
+        padding: 8px 0 0 20px;
+        }
+
+.fondo_contenido {
+	background-attachment: scroll;
+	background-image: url(../imagen/fondocontenido 1.jpg);
+	background-repeat: no-repeat;
+	background-position: right bottom;
+}
+
+.fondo_contenido1 {
+	background-attachment: scroll;
+	background-image: url(../imagenes/fondocontenido2.jpg);
+	background-repeat: no-repeat;
+	background-position: right bottom;
+}
+
+
+/* =-=-=-=-=-=-=-[Menu Izquierdo ]-=-=-=-=-=-=-=- */
+
+  body {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	margin: 0;
+	font-size: 80%;
+	font-weight: bold;
+	}	
+	
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	}
+	
+/* =-=-=-=-=-=-=-[Menu One]-=-=-=-=-=-=-=- */
+	
+#menu {
+	width: 140px;
+	border-style: solid solid none solid;
+	border-color: #94AA74;
+	border-size: 1px;
+	border-width: 1px;
+	margin: 10px;
+	}
+	
+#menu li a {
+	height: 32px;
+  	voice-family: "\"}\""; 
+  	voice-family: inherit;
+  	height: 24px;
+	text-decoration: none;
+	}	
+	
+#menu li a:link, #menu li a:visited {
+	color: #5E7830;
+	display: block;
+	background: url(../imagen/menu1.gif);
+	padding: 8px 0 0 10px;
+	}
+	
+#menu li a:hover {
+	color: #26370A;
+	background: url(imagen/menu1.gif) 0 -32px;
+	padding: 8px 0 0 10px;
+	}
+	
+#menu li a:active {
+	color: #26370A;
+	background: url(imagen/menu1.gif) 0 -64px;
+	padding: 8px 0 0 10px;
+	}
+
+</style>
+
+/*//reloj */
+
+
+body {
+	font: 75%/160% Arial, Helvetica, sans-serif;
+	width: 700px;
+	margin: 20px auto;
+}
+
+/* gradient 1 */
+.gradient1 h1 {
+	font: bold 330%/100% "Lucida Grande", Arial, sans-serif;
+	position: relative;
+	margin: 30px 0 50px;
+	color: #464646;
+}
+.gradient1 h1 span {
+	background: url(imagen/gradient-white.png) repeat-x;
+	position: absolute;
+	display: block;
+	width: 100%;
+	height: 31px;
+}
+
+/* gradient 2 */
+.gradient2 h1 {
+	font: bold 310%/100% "Lucida Grande", Arial, sans-serif;
+	position: relative;
+	margin: 30px 0 50px;
+	color: #464646;
+	text-transform: uppercase;
+	letter-spacing: -2px;
+}
+.gradient2 h1 span {
+	background: url(imagen/gradient-glossy.png) repeat-x;
+	position: absolute;
+	display: block;
+	width: 100%;
+	height: 18px;
+}
+.gradient2 a {
+	color: #000;
+	text-decoration: none;
+}
+.gradient2 a:visited {
+	color: #000;
+}
+.gradient2 a:hover {
+	color: #555;
+}
+
+/* gradient 3 */
+.gradient3 {
+	background: #d7e1e3;
+	padding: 30px 10px;
+	padding: 30px 0 30px 30px;
+}
+.gradient3 h1 {
+	font: bold 280%/100% "Lucida Grande", Arial, sans-serif;
+	position: relative;
+	margin: 0;
+	color: #000;
+	letter-spacing: -2px
+}
+.gradient3 span {
+	background: url(imagen/gradient-grey.png) repeat-x;
+	position: absolute;
+	display: block;
+	width: 100%;
+	height: 29px;
+}
+
+/* gradient 4 */
+.gradient4 {
+	background: #000 url(imagen/gradient4-bg.png) repeat-x left bottom;
+	padding: 30px 0 60px 30px;
+	margin: 30px 0 50px;
+}
+.gradient4 h1 {
+	font: normal 340%/100% "Lucida Grande", Arial, sans-serif;
+	position: relative;
+	margin: 0;
+	color: #fff;
+}
+.gradient4 h2 {
+	font: normal 150%/100% "Lucida Grande", Arial, sans-serif;
+	margin: 10px 0 0;
+	color: #b7b7b7;
+}
+.gradient4 span {
+	background: url(imagen/gradient-dark.png) repeat-x;
+	position: absolute;
+	bottom: -0.1em;
+	display: block;
+	width: 100%;
+	height: 29px;
+}
+
+/* gradient 5 */
+.gradient5 {
+	background: #000;
+	padding: 30px 0 30px 30px;
+	margin: 30px 0 50px;
+}
+.gradient5 h1 {
+	font: normal 330%/100% "Lucida Grande", Arial, sans-serif;
+	position: relative;
+	margin: 0;
+	color: #fff;
+	letter-spacing: -1px;
+}
+.gradient5 h1 span {
+	background: url(imagen/gradient-shine.png) repeat-x;
+	position: absolute;
+	display: block;
+	width: 100%;
+	height: 64px;
+}
+
+/* gradient 6 */
+.gradient6 {
+	background: #000;
+	padding: 30px 0 30px 30px;
+	margin: 30px 0 50px;
+}
+.gradient6 h1 {
+	font: bold 310%/100% "Lucida Grande", Arial, sans-serif;
+	position: relative;
+	margin: 0;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: -2px;
+}
+.gradient6 h1 span {
+	background: url(imagen/gradient-dark-stripe.png) repeat-x;
+	position: absolute;
+	bottom: -0.1em;
+	display: block;
+	width: 100%;
+	height: 29px;
+}
+
+/* gradient 7 */
+.gradient7 {
+	background: #000;
+	padding: 30px 0 30px 30px;
+	margin: 30px 0 50px;
+}
+.gradient7 h1 {
+	font: bold 310%/100% "Lucida Grande", Arial, sans-serif;
+	position: relative;
+	margin: 0;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: -2px;
+}
+.gradient7 h1 span {
+	background: url(imagen/gradient-dark-stripe-hz.png) repeat-x;
+	position: absolute;
+	bottom: -0.1em;
+	display: block;
+	width: 100%;
+	height: 29px;
+}
+
+/* pattern */
+.pattern {
+	background: #000;
+	padding: 30px 0 30px 30px;
+	margin: 30px 0 50px;
+}
+.pattern h1 {
+	font: bold 600%/100% "Lucida Grande", Arial, sans-serif;
+	position: relative;
+	margin: 0;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: -6px;
+}
+.pattern h1 span {
+	background: url(imagen/pattern-zebra.png);
+	position: absolute;
+	display: block;
+	width: 100%;
+	height: 100px;
+}
+
+/* gradient IE6 png hack */
+.gradient-ie h1 {
+	font: bold 320%/100% "Lucida Grande", Arial, sans-serif;
+	position: relative;
+	margin: 30px 0 50px;
+	color: #464646;
+}
+.gradient-ie h1 span {
+	background: url(imagen/gradient-white.png) repeat-x;
+	position: absolute;
+	display: block;
+	width: 100%;
+	height: 31px;
+}
+
+/* jquery */
+.jquery h1 {
+	font: bold 280%/100% "Lucida Grande", Arial, sans-serif;
+	position: relative;
+	margin: 30px 0 0;
+	color: #464646;
+}
+.jquery h1 span {
+	background: url(imagen/gradient-white.png) repeat-x;
+	position: absolute;
+	display: block;
+	width: 100%;
+	height: 31px;
+}
+.jquery p {
+	margin: 10px 0 50px;
+}
+
+/* full example */
+.full .leadin {
+	background: url(imagen/leadin.jpg) no-repeat;
+	padding: 140px 0 0 50px;
+	height: 140px;
+	overflow: hidden;
+}
+.full h1 {
+	font: normal 340%/100% "Lucida Grande", Arial, sans-serif;
+	position: relative;
+	margin: 0;
+	color: #fff;
+	width: 390px;
+}
+.full h1 span {
+	background: url(imagen/gradient-dark.png) repeat-x;
+	position: absolute;
+	bottom: -0.1em;
+	display: block;
+	width: 100%;
+	height: 29px;
+}
+.full h2 {
+	font: normal 150%/100% "Lucida Grande", Arial, sans-serif;
+	margin: 10px 0 0;
+	color: #b7b7b7;
+}
+.full .content {
+	background: #e8e8e8 url(imagen/content.gif) repeat-x;
+	padding: 30px 30px 10px;
+	border: solid 1px #ccc;
+	border-top: none;
+}
+.full h3 {
+	font: normal 210%/100% Arial, sans-serif;
+	position: relative;
+	margin: 0;
+	color: #464646;
+}
+.full h3 span {
+	background: url(imagen/gradient-full.png) repeat-x;
+	position: absolute;
+	display: block;
+	width: 100%;
+	height: 21px;
+}
+.full p {
+	margin: 10px 0 25px;
+}
